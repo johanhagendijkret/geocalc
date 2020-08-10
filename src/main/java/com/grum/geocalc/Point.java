@@ -48,6 +48,14 @@ public class Point implements Serializable {
         this.longitude = longitude.degrees();
     }
 
+    public double getLongitude() {
+        return longitude;
+    }
+
+    public double getLatitude() {
+        return latitude;
+    }
+
     /**
      * Create a new Point.
      * @param latitude latitude

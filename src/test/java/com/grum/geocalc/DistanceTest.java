@@ -340,6 +340,6 @@ public class DistanceTest {
         Point richmond = Point.at(lat, lng);
 
         //comparing to results from http://www.movable-type.co.uk/scripts/latlong.html
-        assertEquals(EarthCalc.midPoint(richmond, kew), Point.at(Coordinate.fromDegrees(51.47285976194266), Coordinate.fromDegrees(-0.2973770580524634)));
+        assertEquals(EarthCalc.midPoint(richmond, kew), Point.at(Coordinate.fromDegrees(51.47285976194265), Coordinate.fromDegrees(-0.2973770580524634)));
     }
 }
